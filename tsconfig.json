@@ -105,5 +105,17 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-  }
+  },
+  "exclude": [        //command to exclude files from compilation
+   // "analytics.ts"
+   //"node_modules" //node_modules are excluded by default
+  ],
+  /* "include": [ //if we set the include key, we have do define all the files that we want to compile
+    "app.ts"
+  ] */
+  /* "files": [ //we can compile whole folders
+    "app.ts"
+  ] */
+
+  
 }
